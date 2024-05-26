@@ -373,3 +373,28 @@ ol {
     margin: 0 auto 1rem auto;
   }
 }
+
+
+@media only screen and (max-width:500px){
+  #game-container{
+  margin:  0rem auto;
+  }
+  #game-board button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+  }
+
+  #players{
+    display: block;
+  }
+  #players li{
+    width: 100%;
+  }
+  header img{
+    width: 4rem;
+  }
+  h1{
+    margin: 0 auto 1rem auto;
+  }
+}
